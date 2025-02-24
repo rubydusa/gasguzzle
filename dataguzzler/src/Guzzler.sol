@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.25;
 
-// TODO: support also CALLCODE, DELEGATECALL, STATICCALL, TSTORE
+// TODO: support also CALLCODE, DELEGATECALL, STATICCALL, TSTORE, CREATE, CREATE2, LOGX
 contract Guzzler {
     function main(bytes calldata data) external {
         // simple non compact scheme
